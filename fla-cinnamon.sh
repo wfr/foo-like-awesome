@@ -1,5 +1,5 @@
 #!/bin/sh
-gsettings set org.cinnamon number-workspaces 9
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 9
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Super>1']"
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Super>2']"
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Super>3']"
@@ -21,3 +21,4 @@ gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-9 "['<Super>
 gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Alt>F10', '<Super>m']"
 gsettings set org.cinnamon.desktop.keybindings.wm close "['<Alt>F4', '<Shift><Super>c']"
 gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Super>n']"
+gsettings set org.cinnamon.desktop.keybindings.wm panel-run-dialog "['<Alt>F2', '<Super>r']"
